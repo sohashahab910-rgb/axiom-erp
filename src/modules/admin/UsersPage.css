@@ -1,0 +1,78 @@
+.users-page h1 {
+  margin-bottom: 4px;
+}
+
+.users-subtitle {
+  color: #7d8593;
+  margin: 0 0 24px;
+  font-size: 0.9rem;
+}
+
+.users-edit-button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #3a404c;
+  background: transparent;
+  color: #c9d1db;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.users-edit-button:hover {
+  background: #1d2027;
+}
+
+.users-role-editor {
+  margin-top: 24px;
+  background: #1d2027;
+  border: 1px solid #2c313a;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.users-role-editor h2 {
+  font-size: 1rem;
+  margin: 0 0 16px;
+}
+
+.users-role-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px 16px;
+  margin-bottom: 20px;
+}
+
+.users-role-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #c9d1db;
+  font-size: 0.9rem;
+  font-family: monospace;
+}
+
+.users-role-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.users-cancel,
+.users-save {
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border: 1px solid #3a404c;
+}
+
+.users-cancel {
+  background: transparent;
+  color: #c9d1db;
+}
+
+.users-save {
+  background: #4f6bff;
+  border-color: #4f6bff;
+  color: #ffffff;
+}

@@ -1,0 +1,20 @@
+.error-panel {
+  background: #3a1d22;
+  color: #ff8a94;
+  border: 1px solid #6b2a33;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin: 0 0 16px;
+  font-size: 0.9rem;
+}
+
+.error-panel-title {
+  margin: 0;
+  font-weight: 600;
+}
+
+.error-panel-fields {
+  margin: 8px 0 0;
+  padding-left: 18px;
+  color: #ffb3b9;
+}
